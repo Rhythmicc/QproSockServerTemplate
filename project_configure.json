@@ -1,0 +1,14 @@
+{
+ "build": "",
+ "entry_point": "QproSockServerTemplate/main.py",
+ "executable": "python3 -m QproSockServerTemplate.main",
+ "server_targets": [
+  {
+   "user": "",
+   "host": "",
+   "port": 22,
+   "path": ""
+  }
+ ],
+ "enable_complete": true
+}
