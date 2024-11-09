@@ -1,0 +1,12 @@
+[tool.qpro]
+[[tool.qpro.server_targets]]
+user = ""
+host = ""
+port = 22
+path = ""
+
+[tool.qpro.config]
+build = ""
+entry_point = "QproSockServerTemplate/main.py"
+executable = "python3 -m QproSockServerTemplate.main"
+enable_complete = true
