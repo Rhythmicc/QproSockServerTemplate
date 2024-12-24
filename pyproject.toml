@@ -10,3 +10,20 @@ build = ""
 entry_point = "QproSockServerTemplate/main.py"
 executable = "python3 -m QproSockServerTemplate.main"
 enable_complete = true
+
+[tool.poetry]
+name = "QproSockServerTemplate"
+version = "0.1.0"
+description = "Tiny RPC Framework"
+authors = ["Rhythmicc <rhythmlian.cn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Qpro = '^0.13.0'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
